@@ -1,6 +1,4 @@
 #include "singly_linked_list.h"
-
-
 template <typename T>
 int singly_linked_list<T>::get_size(){
 	return size;

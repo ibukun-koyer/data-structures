@@ -1,4 +1,5 @@
 #include "stack.cpp"
+
 using namespace std;
 int main(){
 	stack<int> stacks;

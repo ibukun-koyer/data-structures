@@ -1,7 +1,6 @@
 #include "singly_linked_list.cpp"
 #include <algorithm>
 using namespace std;
-
 int main(){
 	//adding new nodes to the list
 	singly_linked_list<string> list;

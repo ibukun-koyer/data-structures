@@ -1,4 +1,5 @@
 #include "stack.h"
+
 template <typename T>
 bool stack<T>::empty(){
 	bool ret = singly_linked_list<T>::is_empty();

@@ -13,4 +13,5 @@ public:
 	void print();
 	//~stack();
 }; 
+
 #endif
