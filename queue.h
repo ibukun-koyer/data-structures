@@ -1,15 +1,15 @@
-#ifndef STACK_H
-#define STACK_H
+#ifndef QUEUE_H
+#define QUEUE_H
 #include "singly_linked_list.cpp"
 using namespace std;
 template <typename T>
-class stack: protected singly_linked_list<T>{
+class queue: protected singly_linked_list<T>{
 public:
 	bool empty();
 	T peek();
 	int getSize();
-	void push(T data);
-	void pop();
+	void enqueue(T data);
+	void dequeue();
 	void print();
 	//~stack();
 }; 
